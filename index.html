@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lottery</title>
+    <link href="index.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>Lottery - Ballot</header>
+    <p id="balance">Current Contract Balance: </p>
+
+    <table>
+        <tr id="names">
+            <td colspan="2">Car</td>
+            <td colspan="2">Phone</td>
+            <td colspan="2">Computer</td>
+        </tr>
+        <tr>
+            <td colspan="2"><img src="png-hd-images-of-cars--2505.png" alt="Car Image"/></td>
+            <td colspan="2"><img src="smartphone_PNG8534.png" alt="Phone Image"></td>
+            <td colspan="2"><img src="thinkpad.png" alt="Computer Image"/></td>
+        </tr>
+        <tr>
+            <td><button class="bid">Bid</button></td>
+            <td class="TotalBids"></td>
+            <td><button class="bid">Bid</button></td>
+            <td class="TotalBids"></td>
+            <td><button class="bid">Bid</button></td>
+            <td class="TotalBids"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="left">Current account:</td>
+            <td class="right">Owner's account:</td>
+        </tr>
+        <tr>
+            <td><input class="left" type="text"/></td>
+            <td><input class="right" type="text"/></td>                
+        </tr>
+        <tr>
+            <td><button class="left">Reveal</button></td>
+            <td><button class="right">Withdraw</button></td>
+        </tr>
+        <tr>
+            <td><button class="left">Am I Winner</button></td>
+            <td><button class="right">Declare Winners</button></td>
+        </tr>
+    </table>
+
+    <script src="web3.min.js"></script>
+    <script src="main.js"></script>
+    
+    
+</body>
+</html>

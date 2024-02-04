@@ -1,0 +1,49 @@
+img {
+    width: 320px;
+    height: 180px;
+    margin: 25px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    margin: auto;
+    text-align: center;
+    margin: 25px;
+    font-size: large;
+    text-decoration: underline;
+}
+
+#names td{
+    background-color: gray;
+    color: aliceblue;
+    padding: 20px;
+}
+
+table {
+    margin: auto;
+}
+
+.bid {
+    font-size: medium;
+    padding: 10px;
+    background-color:cornflowerblue;
+    color: azure;
+    border-radius: 25%;
+    border-color: black;
+}
+
+button.left {
+    padding: 5px;
+    background-color: green;
+    color: azure;
+}
+
+button.right {
+    padding: 5px;
+    background-color: cornflowerblue;
+    color:azure;
+}
